@@ -1,4 +1,5 @@
 using ExoApi_turma15.Contexts;
+using ExoApi_turma15.Interfaces;
 using ExoApi_turma15.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<SqlContext, SqlContext>();
 builder.Services.AddTransient<ProjetoRepository, ProjetoRepository>();
+builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

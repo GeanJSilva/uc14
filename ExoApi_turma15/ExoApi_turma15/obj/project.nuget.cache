@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JfrI+3wv4P5yqs7XsfKO6sNngX308xMZhQk/GLPpOAWkVKZ4zhMZPsD3Ron195whMBJr6MM2KKmaeupNbgD+pw==",
+  "dgSpecHash": "RRDIgINM0FAPrzjKG+mKJJNdnaMmtff5EtmRO8GqyX4libA09Ow5YXI4QRYnkqwvQAJjOM0e1iwdzbuvwvPOvQ==",
   "success": true,
   "projectFilePath": "D:\\SENAI 2022\\UC14- Desenvolvimento de APIs\\Projeto_APIs\\ExoApi_turma15\\ExoApi_turma15\\ExoApi_turma15.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gean\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Gean\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Gean\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\Gean\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Gean\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Gean\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

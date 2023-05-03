@@ -56,9 +56,9 @@ namespace ExoApi_turma15.Repositories
             return _context.Usuarios.ToList();
         }
 
-        public Usuario Login(string Email, string Senha)
+        public Usuario Login(string email, string senha)
         {
-            throw new NotImplementedException();
+            return _context.Usuarios.First(u=>u.Email == email && u.Senha ==senha);
         }
     }
 }

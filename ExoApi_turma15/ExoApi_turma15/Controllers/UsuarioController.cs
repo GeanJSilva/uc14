@@ -1,5 +1,6 @@
 ﻿using ExoApi_turma15.Models;
 using ExoApi_turma15.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace ExoApi_turma15.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsuarioController : ControllerBase
     {
         private readonly UsuarioRepository _usuarioRepository;
@@ -50,7 +52,7 @@ namespace ExoApi_turma15.Controllers
             }
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpPost]
 
         public IActionResult Cadastrar(Usuario usuario)

@@ -69,3 +69,4 @@ D:\SENAI 2022\UC14- Desenvolvimento de APIs\Projeto_APIs\ExoApi_turma15\ExoApi_t
 D:\SENAI 2022\UC14- Desenvolvimento de APIs\Projeto_APIs\ExoApi_turma15\ExoApi_turma15\obj\Debug\net7.0\ExoApi_turma15.pdb
 D:\SENAI 2022\UC14- Desenvolvimento de APIs\Projeto_APIs\ExoApi_turma15\ExoApi_turma15\obj\Debug\net7.0\ExoApi_turma15.genruntimeconfig.cache
 D:\SENAI 2022\UC14- Desenvolvimento de APIs\Projeto_APIs\ExoApi_turma15\ExoApi_turma15\obj\Debug\net7.0\ref\ExoApi_turma15.dll
+D:\SENAI 2022\UC14- Desenvolvimento de APIs\Projeto_APIs\ExoApi_turma15\ExoApi_turma15\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
